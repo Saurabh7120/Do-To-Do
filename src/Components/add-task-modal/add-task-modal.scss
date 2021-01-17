@@ -1,0 +1,50 @@
+.Modal{
+  z-index:9999;
+  color:white;
+  width:400px;
+  height:100px;
+  padding:50px;
+  border-radius: 5px;
+  box-shadow:10px 10px 10px rgba(45,55,68,0.2);
+  border:2px solid transparent;
+  backdrop-filter:blur(8px);
+  background-clip:padding-box;
+  background: rgba(255,255,255,0.1);
+  position: absolute;
+  top:30%;
+  transform:translateX(-51.5%);
+
+  .text{
+    color:white;
+    margin-bottom: 20px;
+    input{
+      font-size: 40px;
+      color:white;
+      
+      &::placeholder{
+        font-size: 30px;
+        color:#E6E6E7;
+      }
+    }
+   
+  }
+
+  .add-btn{
+    background: rgba(45,200,40,0.3);
+    color:white;
+    backdrop-filter: blur(8px);
+    transition: all 400ms;
+    &:hover{
+      background: rgb(45,200,40);
+    }
+  }
+  .cancel-btn{
+    background: rgba(189,51,69,0.3);
+    color:white;
+    backdrop-filter: blur(8px);
+    transition: all 400ms;
+    &:hover{
+      background: rgb(189,51,69);
+    }
+  }
+}

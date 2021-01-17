@@ -1,0 +1,18 @@
+.task-container{
+  padding:10px 30px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  min-width: 350px;
+  max-width: 400px;
+  min-height: 90px;
+  background: #5111FC;
+  box-shadow: 4px 2px 18px #410FC6, -4px -4px 13px #BAA0FC,
+    inset 6px 6px 16px rgba(100, 42, 254, 0.8),
+    inset -8px -8px 8px rgba(108, 54, 252, 0.2);
+
+    .task-list{
+      width: 300px;
+    }
+
+}
